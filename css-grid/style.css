@@ -1,6 +1,25 @@
+/* Same styling as HTML-only website that outlines boxes */
 body{
     margin: 0;
+}
+div{
+    text-align: center;
+    border: 5px solid rgb(196, 196, 196);
+    padding: 30px;
+    font-size: 18px;
     font-family: 'Questrial';
+}
+div div{
+    border-color: rgb(138, 138, 138);
+}
+div div div{
+    border-color: rgb(75, 75, 75);
+}
+div div div div{
+    border-color: rgb(41, 41, 41);
+}
+div div div div div{
+    border-color: rgb(0, 0, 0);
 }
 
 /* CSS Grid */
