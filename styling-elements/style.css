@@ -1,9 +1,75 @@
 body{
+	margin: 0;
+	background-color: #FAFAFA;
+    font-family: 'Questrial', sans-serif;
+}
+h2{
     margin: 0;
-    font-family: 'Questrial';
+    padding-top: 10%;
+	color: white;
+}
+h3{
+	color: black;
+	font-weight: bold;
 }
 
-/* CSS Grid */
+/* These are temporary fixes */
+.container{
+    padding: 0 10vw 0 10vw;
+}
+.card{
+    box-shadow: 0 0 10px black;
+}
+.page-footer{
+    background-color: lightpink;
+}
+/* End of non library resources */
+
+.hero{
+	background-image: url('assets/images/banner.jpg');
+	background-blend-mode:multiply;
+	background-position: 30% 0%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: red;
+	height: 500px;
+	width: 100vw;
+}
+.hero__overlay{
+	height: 500px;
+	width: 100vw;
+}
+.hero__overlay--text{
+	width: 100%;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 24px;
+}
+.hero__overlay--btn{
+	margin: 20px;
+}
+.banner__link--discord{
+	padding: 50px;
+	font-size: 52px;
+	text-align: center;
+	background-color: #7289DA;
+	color: white;
+}
+
+.btn__discord{
+	height: 80px;
+	width: 200px;
+	background-image: url('../assets/images/discord-large.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid white;
+}
+.grid__display--header{
+	text-align: center;
+	color: grey;
+	padding: 30px;
+}
 .grid__display--people{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -14,29 +80,72 @@ body{
 		"person1 person2 person3"
 		"person4 person5 person6"
 		"person7 . .";
+	}
+.person__profile{
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	/* background-color: ; */
+}
+.person__profile--picture{
+	height: 50%;
+	background-color: grey;
+	background-position: 0% 20%;
+	background-size: cover;
+}
+.person__profile--name{
+	text-align: center;
+	font-weight: bold;
+}
+.person__profile--desc{
+	padding: 20px;
+	text-align: center;
+}
+#person__profile--picture-1{
+	background-image: url('assets/images/profile/kody.jpg')
 }
 .person__profile--1{
 	grid-area: person1;
 }
+#person__profile--picture-2{
+	background-image: url('assets/images/profile/victor.jpg')
+}
 .person__profile--2{
 	grid-area: person2;
+}
+#person__profile--picture-3{
+	background-image: url('assets/images/profile/evelyn.jpg')
 }
 .person__profile--3{
 	grid-area: person3;
 }
+#person__profile--picture-4{
+	background-image: url('assets/images/profile/tim.jpg')
+}
 .person__profile--4{
 	grid-area: person4;
+}
+#person__profile--picture-5{
+	background-image: url('assets/images/profile/hiron.jpg')
 }
 .person__profile--5{
 	grid-area: person5;
 }
+#person__profile--picture-6{
+	background-image: url('assets/images/profile/richard.jpg')
+}
 .person__profile--6{
 	grid-area: person6;
+}
+#person__profile--picture-7{
+	background-image: url('assets/images/profile/marco.jpg')
 }
 .person__profile--7{
 	grid-area: person7;
 }
-
+.page-footer{
+	margin-top: 40px;
+}
 @media screen and (max-width: 992px){
 	.grid__display--people{
 		grid-template-columns: repeat(2, 1fr);
