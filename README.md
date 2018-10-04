@@ -18,8 +18,10 @@ Code Samples that are demoed in the presentation found here:
 
 1. Template website displays a blank page / [HTML Template Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/template)
 
-2. [HTML-Only Website](https://ryabn.github.io/web-dev-code-samples/html-only/) / [HTML-Only Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/html-only)
+2. [HTML Only Website](https://ryabn.github.io/web-dev-code-samples/html-only/) / [HTML Only Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/html-only)
 
 3. [CSS-Grid Website](https://ryabn.github.io/web-dev-code-samples/css-grid/) / [CSS-Grid Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/css-grid)
 
-4. [Using Libraries Website](https://ryabn.github.io/web-dev-code-samples/using-libraries/) / [Using Libraries Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/using-libraries)
+4. [Styling Elements Website](https://ryabn.github.io/web-dev-code-samples/styling-elements/) / [Styling Elements Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/styling-elements)
+
+5. [Using Libraries Website](https://ryabn.github.io/web-dev-code-samples/using-libraries/) / [Using Libraries Source Code](https://github.com/Ryabn/web-dev-code-samples/tree/master/using-libraries)
